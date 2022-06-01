@@ -53,4 +53,4 @@ jobs:
           app-name: 'helio-angular'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A4480AA7045D44328FE378CE1F5D77B3 }}
-          package: .
+          package: ./dist/frontend
