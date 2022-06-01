@@ -7,6 +7,7 @@ import { ProductService } from '../product.service';
   templateUrl: './product-read.component.html',
   styleUrls: ['./product-read.component.css']
 })
+
 export class ProductReadComponent implements OnInit {
 
   products: Product[] = [];
