@@ -4,10 +4,12 @@
             <img class="logo" src="assets/img/logo.png" alt="logo" />
         </a>
     </span>
-    <span class="title-group">        
-        <i class="material-icons">
-            home
-        </i>
-        Início
+    <span class="title-group">
+        <a routerLink="{{routeUrl}}">
+            <i class=" material-icons">
+                {{icon}}
+            </i>
+            {{title}}
+        </a>
     </span>
 </mat-toolbar>
